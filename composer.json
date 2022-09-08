@@ -1,0 +1,8 @@
+{
+    "name": "hannatylna/wordpress",
+    "description": "A wordpress site",
+    "license": "MIT",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
