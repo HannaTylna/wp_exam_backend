@@ -29,10 +29,3 @@ jobs:
        ${{ runner.os }}-php-
    - name: Install dependencies
      run: composer install --prefer-dist --no-progress
-
-   - name: 📂 Sync files
-     uses: appserver.dev.c52e038f-81e8-4d68-b3a0-b6624d54c16f.drush.in
-     with:
-      server: pantheon.io
-      username: ${{ secrets.PANTHEON_USR}}
-      password: ${{ secrets.PANTHEON_PWD }}
